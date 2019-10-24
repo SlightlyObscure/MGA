@@ -1,0 +1,72 @@
+# Car Driving Sim
+Man spielt einen grantigen Autofahrer, der sich weigert sich dem normalen Verkehrstempo anzupassen weil er ein schnelles, rotes Auto hat. Ziel ist es so lange wie möglich nicht in ein anderes Auto zu fahren (und so gut wie möglich das durcheinanderglitchen von den Autos zu ignorieren).
+
+## Controls
+- A und D - Spur Wechseln
+- W und S - Beschleunigen bzw. Bremsen
+
+## Gameplay Features
+- Nicht in andere Autos hineinfahren
+- Möglichst lange durchhalten für höheren Score
+
+## Technical Features (Unity and other)
+- Autos bremsen wenn sie ein langsameres Auto vor sich haben, basierend darauf wie nah das vordere Auto ist
+- Neue Autos spawnen immer schneller nach
+- Auto Variationen -> Vans sind durchschnittlich langsamer
+- (fast) ultrarealistische Straßenszene
+
+## Time Spent report
+- Planung: 32 min
+- Main Menu: 1h 33min
+- Szene Scrollen: 1h 52min
+- Auto Modelle: 1h 16min
+- Player Auto und Bewegung: 2h 43min
+- Collisions und Game Over Trigger: 2h 34min
+- Game Over Screen: 31min
+- Sounds: 17min
+- Bewegung und Spawnen der anderen Autos: 2h 48min
+
+Gesamt: 14,1h
+
+Über dem Budget, hpts. weil ich in den ersten 8h nicht besonders auf die Zeit geachtet hab, dann drauf gekommen bin, dass ich mir etwas zu viel vorgenommen habe und dann die letzten 6h gebraucht hab um aus dem Ding ein funktionierendes Spiel zu machen. Und dann gabs natürlich noch in den letzten 6h einige Probleme die viel mehr Zeit gefressen haben als ich gedacht hätte (was ich eigentlich planen hätte sollen, weil das passiert eh immer). 
+Geplant wäre noch gewesen dass die anderen Verkehrsteilnehmer die Spur wechseln können wenn vor ihnen ein Auto ist und eine andere Spur frei ist. Das ist sich dann nicht mehr ausgegangen.
+
+
+## Problems and Challenges
+- Etwas mit dem Projektumfang übernommen bzw. am Anfang nicht genug auf die Zeit geachtet
+- Mit dem Lighting hab ich mich ziemlich lang gespielt und dann irgendwann aufgegeben, obwohl es immer noch teilweise bissl falsch ausschaut
+- Für die Particles hab ich ur lang gebraucht weil ich unbedingt wollte dass sie die Farbe ändern mit der Zeit, hab aber nicht herausfinden können warum das nicht funktioniert. Generell hab ich da viel länger gebraucht als erwartet.
+- Es hat generell einige kleinigkeiten gegeben wo ich recht lang (10+ min) rumgegoogelt hab weil ich nicht verstanden hab wie das geht (z.B. wie man einem Button onClick ein Skript von sich selbst gibt). Die Doku für Unity ist zwar super und ich bin größtenteils damit ausgekommen aber ich bin immer wieder auf Sachen gestoßen (hpts. im Editor) die nicht so intuitiv waren wie ich gedacht hätte.
+
+## Resources, Sources, References and Links
+- Tutorials und Hilfe:
+Hpts. Die Unity Dokumentation und dann noch die hier:
+	https://learn.unity.com/tutorial/live-sessions-on-ui#5c7f8528edbc2a002053b4b0
+	https://www.youtube.com/watch?v=vzjWzUENGzQ
+	https://learn.unity.com/tutorial/ui-components#5c7f8528edbc2a002053b4d0
+	https://learn.unity.com/tutorial/ui-components#
+	https://www.youtube.com/watch?v=4-X1FDylROA
+	https://forum.unity.com/threads/using-a-button-to-switch-scenes.379945/
+	https://answers.unity.com/questions/42843/referencing-non-static-variables-from-another-scri.html
+	https://answers.unity.com/questions/187272/access-parent-of-gameobject.html
+	https://answers.unity.com/questions/39872/destroy-the-current-gameobject.html
+	https://www.youtube.com/watch?v=FEA1wTMJAR0
+	https://www.youtube.com/watch?v=egxNXuwf0_g
+	https://answers.unity.com/questions/144803/audio-not-always-playing.html
+
+-Sounds:
+Explosion
+	https://freesound.org/people/Iwiploppenisse/sounds/156031/
+Background Musik
+	Heißt Diesel.ogg, ist ein Song aus dem Soundtrack von dem Spiel Car Transporter Sim 2013 (und ich habs mir von Youtube runtergeladen)
+
+## Self Assessment
+ - working game build, overall impression, is it a game?: 4
+ - project structure: 5
+ - documentation: 5
+ - features: (5)
+    - Materials: 1
+    - Light: 1
+    - Particles: 1
+    - Audio: 1
+    - Input: 1
